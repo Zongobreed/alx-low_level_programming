@@ -3,7 +3,7 @@
 /**
  * main - main function for printf
  *
- * Return: almost always 0
+ * Return: successfully 0
  */
 int main(void)
 {
