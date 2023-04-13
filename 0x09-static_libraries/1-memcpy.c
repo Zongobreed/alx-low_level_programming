@@ -9,7 +9,7 @@
  * Return: dest
  */
 
-char *_memcpy(char *dest, char *src, unsigned in n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	int i = n, r;
 
