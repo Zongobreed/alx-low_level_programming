@@ -1,4 +1,4 @@
-#inc;ude "lists.h"
+#include "lists.h"
 
 /**
  * main - check the code
