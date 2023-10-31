@@ -18,12 +18,14 @@ int create_file(const char *filename, char *text_content)
 	if (x == -1)
 		return (-1);
 	if (!text_content)
+	{
 		text_content = " ";
 	for (xlr = 0 ; text_content[xlr] ; xlr++)
 		;
 	xwr = write(x, text_content, xlr);
 	if (xwr == -1)
 		return (-1);
+	}
 	close(x);
 	return (1);
 }
